@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Cloud Clipboard V1",
+  "version": "1.0",
+  "description": "My 5-day AI-powered clipboard manager",
+  "permissions": [
+    "clipboardRead",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
